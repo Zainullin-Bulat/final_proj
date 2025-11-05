@@ -8,7 +8,7 @@ def test_first():
     browser.implicitly_wait(4)
     browser.maximize_window()
 
-    auth_page = MainPage(browser)
-    auth_page.go()
+    main_page = MainPage(browser)
+    main_page.go()
 
     sleep(5)
