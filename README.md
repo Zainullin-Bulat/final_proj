@@ -27,5 +27,8 @@
 - pip install selenium
 - pip install webdriver-manager
 
+
+pip install -r requirements.txt
+
 ### Полезные ссылки
 - [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
