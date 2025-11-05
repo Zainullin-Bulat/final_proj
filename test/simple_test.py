@@ -3,8 +3,8 @@ from page.MainPage import MainPage
 from time import sleep
 
 
-def test_first():
-    browser = webdriver.Edge()
+def first_test():
+    browser = webdriver.Chrome()
     browser.implicitly_wait(4)
     browser.maximize_window()
 

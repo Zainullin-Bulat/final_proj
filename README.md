@@ -23,7 +23,7 @@
 3. Запустить тесты 'pytest'
 
 ### Библиотеки (!)
-- pyp install pytest
+- pip install pytest
 - pip install selenium
 - pip install webdriver-manager
 
