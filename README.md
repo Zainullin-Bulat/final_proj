@@ -1,35 +1,34 @@
-# pytest_ui_api_template
+# Проект YouGile
 
-## Шаблон для автоматизации тестирования на python
+Автоматизированные тесты для YouGile (https://ru.yougile.com/)
+API YouGile(https://ru.yougile.com/api-v2#/)
 
-### Стек:
-- pytest
-- selenium
-- requests
-- _sqlalchemy_
-- allure
-- config
+# Структура проекта
 
-### Струткура:
-- ./test - тесты
-- ./pages - описание страниц
-- ./api - хелперы для работы с API
-- ./db - хелперы для работы с БД
+pages/ - Page Object модели
+test/ - Тесты (UI и API)
+config.json - Конфигурация тестов
+conftest.py - Фикстуры pytest
 
-### Шаги
-1. Склонировать проект 'git clone https://github.com/имя_пользователя/
-   pytest_ui_api_template.git'
-2. Установить зависимости
-3. Запустить тесты 'pytest'
+# config.json
 
-### Библиотеки (!)
-- pip install pytest
-- pip install selenium
-- pip install webdriver-manager
+"test_credentials": {
+    "email": "`Ваш email`",
+    "password": "`Ваш pass`",
+    "api_key": "`Ваш API_KEY`",
+    "user_id": "`ваш ID`"
 
+# Установите зависимости:
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
-### Полезные ссылки
-- [Подсказка по markdown](https://www.markdownguide.org/basic-syntax/)
-- [gitignore.io](https://www.toptal.com/developers/gitignore)
+# Запуск тестов:
+
+pytest - Все тесты
+pytest -m api - Только API
+pytest -m ui - Только UI
+
+# Allure отчёты:
+
+pytest --alluredir=allure-results - Запуск тестов с генерацией отчёта
+allure serve allure-results - Просмотр отчёта

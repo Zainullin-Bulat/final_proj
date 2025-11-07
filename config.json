@@ -1,0 +1,13 @@
+{
+  "base_url": "https://ru.yougile.com/team/settings-account",
+  "api_base_url": "https://ru.yougile.com/api-v2",
+  "test_credentials": {
+    "email": "`Ваш email`",
+    "password": "`Ваш pass`",
+    "api_key": "`Ваш API_KEY`",
+    "user_id": "`ваш ID`"
+  },
+  "test_settings": {
+    "wait_time": 10
+  }
+}

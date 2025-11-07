@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode,test
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,python,visualstudiocode,test
+# Created by https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,python,visualstudiocode
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
@@ -173,64 +173,6 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
-### Test ###
-### Ignore all files that could be used to test your code and
-### you wouldn't want to push
-
-# Reference https://en.wikipedia.org/wiki/Metasyntactic_variable
-
-# Most common
-*foo
-*bar
-*fubar
-*foobar
-*baz
-
-# Less common
-*qux
-*quux
-*bongo
-*bazola
-*ztesch
-
-# UK, Australia
-*wibble
-*wobble
-*wubble
-*flob
-*blep
-*blah
-*boop
-*beep
-
-# Japanese
-*hoge
-*piyo
-*fuga
-*hogera
-*hogehoge
-
-# Portugal, Spain
-*fulano
-*sicrano
-*beltrano
-*mengano
-*perengano
-*zutano
-
-# France, Italy, the Netherlands
-*toto
-*titi
-*tata
-*tutu
-*pipppo
-*pluto
-*paperino
-*aap
-*noot
-*mies
-
-
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -276,4 +218,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode,test
+# End of https://www.toptal.com/developers/gitignore/api/windows,python,visualstudiocode
