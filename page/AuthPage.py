@@ -15,13 +15,13 @@ class AuthPage:
 
     def login_as(self, email: str, password: str):
         # Ожидаем появления поля ввода email
-        email_field = (WebDriverWait(self.__driver, 10)
+        email_field = (WebDriverWait(self.__driver, 30)
                        .until(EC.visibility_of_element_located((
                           By.CSS_SELECTOR, "input[type='email']"))))
         email_field.send_keys(email)
 
         # Ожидаем появления поля ввода пароля
-        password_field = (WebDriverWait(self.__driver, 10)
+        password_field = (WebDriverWait(self.__driver, 30)
                           .until(EC.visibility_of_element_located((
                              By.CSS_SELECTOR, "input[type='password']"))))
         password_field.send_keys(password)
