@@ -3,6 +3,10 @@
 Автоматизированные тесты для YouGile (https://ru.yougile.com/)    
 API YouGile(https://ru.yougile.com/api-v2#/)
 
+# Allure отчёты:
+
+Браузер Edge Версия 142.0.3595.53 (Официальная сборка) (64-разрядная версия)
+
 # Структура проекта
 
 pages/ - Page Object модели    
